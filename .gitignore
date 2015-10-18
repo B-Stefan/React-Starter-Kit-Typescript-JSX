@@ -1,0 +1,6 @@
+web-build
+web-tmp
+node_modules
+typings
+.idea
+.DS_Store

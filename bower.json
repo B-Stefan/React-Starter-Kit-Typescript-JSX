@@ -1,0 +1,19 @@
+{
+  "name": "React-Starter-Kit-Typescript",
+  "version": "0.0.0",
+  "authors": [
+    "Stefan B <Stefan.bie@live.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootstrap-sass": "~3.3.5"
+  }
+}

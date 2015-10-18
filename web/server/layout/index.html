@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%- title %></title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css server/public/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+
+    <!-- build:css server/public/main.css -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- endbuild -->
+</head>
+<body class="responsive">
+<div class="loader" style="display: none;">
+    <div class="bubblingG"> <span id="bubblingG_1"> </span> <span id="bubblingG_2"> </span> <span id="bubblingG_3"> </span> </div>
+</div>
+<div id="root">
+
+    <%=rootComponentHTML%>
+
+</div>
+
+
+
+<!-- build:js server/public/vendor.js -->
+<!-- bower:js -->
+
+<!-- endbower -->
+
+<!-- endbuild -->
+
+<!-- build:js server/public/scripts.js -->
+<!-- inject:js -->
+<!-- endinject -->
+<!-- endbuild -->
+
+
+<script src="/public/js/bundle.js"></script>
+<script>new window.AppBootstrap().run()</script>
+
+
+</body>
+</html>

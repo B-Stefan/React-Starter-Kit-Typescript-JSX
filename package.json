@@ -1,0 +1,47 @@
+{
+  "name": "react-starter-kit-typescript",
+  "version": "0.0.1",
+  "description": "A starterkit for React and Typescript build with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsd": " ./node_modules/.bin/tsd",
+    "build": " ./node_modules/.bin/gulp build",
+    "bundle": " ./node_modules/.bin/gulp build",
+    "install-deps": "bower install  && npm run tsd install",
+    "dev": "npm run install-deps && ./node_modules/.bin/gulp watch",
+    "gulp": " ./node_modules/.bin/gulp "
+  },
+  "author": "Stefan Bieliauskas",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "express": "^4.13.3",
+    "history": "^1.12.5",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0-rc3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-callback": "0.0.3",
+    "gulp-develop-server": "^0.4.3",
+    "gulp-filter": "^3.0.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-inject": "^2.2.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-size": "^2.0.0",
+    "gulp-typescript": "^2.8.2",
+    "merge-stream": "^1.0.0",
+    "pngquant": "^0.5.0",
+    "require-dir": "^0.3.0",
+    "tsd": "^0.6.4",
+    "typescript": "^1.6.0-dev.20150915",
+    "vinyl-paths": "^2.0.0",
+    "webpack": "^1.12.1",
+    "wiredep": "^2.2.2"
+  }
+}

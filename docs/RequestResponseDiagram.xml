@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1194" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" fold="1" page="1"
+              pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0">
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Clent" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+            <mxGeometry x="140" y="70" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;" edge="1" parent="1" source="2">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxPoint x="110" y="240" as="sourcePoint"/>
+                <mxPoint x="200" y="340" as="targetPoint"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxPoint x="200" y="160" as="sourcePoint"/>
+                <mxPoint x="470" y="160" as="targetPoint"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Http request"
+                style="text;html=1;resizable=0;points=[];;align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;"
+                vertex="1" connectable="0" parent="4">
+            <mxGeometry x="0.5333" y="-2" relative="1" as="geometry">
+                <mxPoint x="-67" y="-12" as="offset"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="Server" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+            <mxGeometry x="410" y="70" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;" edge="1" parent="1" source="5">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxPoint x="470" y="310" as="sourcePoint"/>
+                <mxPoint x="470" y="340" as="targetPoint"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+                <mxPoint x="470" y="250" as="sourcePoint"/>
+                <mxPoint x="200" y="250" as="targetPoint"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="HTTP response"
+                style="text;html=1;resizable=0;points=[];;align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;"
+                vertex="1" connectable="0" parent="8">
+            <mxGeometry x="-0.0296" y="-1" relative="1" as="geometry">
+                <mxPoint x="1" y="-9" as="offset"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="12"
+                value="&lt;p style=&quot;margin: 0px ; margin-top: 10px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;1. Routing&amp;nbsp;&lt;/b&gt;&lt;br&gt;Apply the route to the react-router&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 10px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;2. Render components&lt;/b&gt;&lt;br&gt;The server take care about the server side rendering&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 10px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;3. Send to client&lt;/b&gt;&lt;br&gt;Send the pre rendered HTML to the client and add the state obj. as JSON obj to the HTML &amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 10px ; margin-left: 10px ; text-align: left&quot;&gt;&lt;b&gt;4. Send to client&lt;/b&gt;&lt;br&gt;On the client React apply the state obj from the server&amp;nbsp;&lt;/p&gt;"
+                style="shape=note;html=1;size=15;spacingLeft=5;align=left;html=1;overflow=fill;whiteSpace=wrap;fillColor=#FFFFFF;"
+                vertex="1" parent="1">
+            <mxGeometry x="555" y="70" width="230" height="310" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="/about"
+                style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;"
+                vertex="1" parent="1">
+            <mxGeometry x="320" y="170" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="pre rendered HTML with state information&amp;nbsp;"
+                style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;"
+                vertex="1" parent="1">
+            <mxGeometry x="260" y="255" width="170" height="35" as="geometry"/>
+        </mxCell>
+    </root>
+</mxGraphModel>
