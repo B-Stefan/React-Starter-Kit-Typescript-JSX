@@ -1,5 +1,6 @@
 web-build
 web-tmp
+bower_components
 node_modules
 typings
 .idea
